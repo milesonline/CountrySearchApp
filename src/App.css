@@ -1,0 +1,39 @@
+body {
+    background-color: purple;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.search-input {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.country-card{
+    border: 4px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.my-header{
+    border: auto solid #ccc;
+    padding: 10px;
+    margin: auto;
+    max-width: 300px;
+}
+
+
+.country-flag{
+    max-width: 100%;
+    height: auto;
+}
+
+.country-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
